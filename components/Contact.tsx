@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
 import AnimateIn from "./AnimateIn";
 
-const WHATSAPP_NUMBER = "27817194455";
+const WHATSAPP_NUMBER = "27678297792";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const contactInfo = [
