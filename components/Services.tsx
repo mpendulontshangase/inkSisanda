@@ -1,5 +1,5 @@
 "use client";
-import { Palette, Shirt, GraduationCap, Printer } from "lucide-react";
+import { Palette, Shirt, GraduationCap, Printer, Users, BookOpen } from "lucide-react";
 import AnimateIn from "./AnimateIn";
 import { motion } from "framer-motion";
 
@@ -36,6 +36,22 @@ const services = [
     features: ["Heat Press Machines", "DTF Printers", "Screen Print Kits", "Vinyl Cutters"],
     color: "from-orange-700 to-orange-800",
   },
+  {
+    icon: Users,
+    title: "Networking Events",
+    description:
+      "We host dynamic networking events that bring entrepreneurs, creatives, and business owners together to connect, collaborate, and grow their networks.",
+    features: ["Business Networking", "Creative Meetups", "Industry Mixers", "Community Building"],
+    color: "from-orange-500 to-orange-600",
+  },
+  {
+    icon: BookOpen,
+    title: "Seminars",
+    description:
+      "Informative and inspiring seminars covering branding, entrepreneurship, and business development. Gain practical knowledge to take your business to the next level.",
+    features: ["Branding Seminars", "Business Development", "Entrepreneurship", "Guest Speakers"],
+    color: "from-orange-600 to-orange-700",
+  },
 ];
 
 export default function Services() {
@@ -60,7 +76,7 @@ export default function Services() {
           </AnimateIn>
 
         {/* Service cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
             <motion.div
               key={service.title}
