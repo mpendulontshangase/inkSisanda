@@ -24,7 +24,7 @@ export default function About() {
               Who We Are
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              tech InkSisanda is a proudly South African creative and branding
+              InkSisanda Tech is a proudly South African creative and branding
               company specialising in graphic design, custom apparel, and
               professional branding solutions. We were founded with a vision to
               make high-quality branding accessible to businesses and

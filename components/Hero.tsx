@@ -44,15 +44,15 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              className="font-black leading-tight mb-6 flex items-center gap-0"
+              className="font-black leading-tight mb-6"
             >
-              <span className="text-xs sm:text-base text-gray-900 -rotate-90 whitespace-nowrap origin-center -mr-3 sm:-mr-4">tech</span>
               <span className="block">
-                <span className="text-orange-500 text-6xl sm:text-6xl lg:text-6xl xl:text-7xl">Ink</span>
-                <span className="text-gray-900 text-4xl sm:text-4xl lg:text-4xl xl:text-5xl relative">
+                <span className="text-orange-500 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl">Ink</span>
+                <span className="text-gray-900 text-4xl sm:text-5xl lg:text-5xl xl:text-6xl relative">
                   Sisanda
                   <span className="absolute -bottom-1 left-0 right-0 h-1 bg-orange-500 rounded-full" />
                 </span>
+                <span className="text-gray-900 text-2xl sm:text-3xl lg:text-3xl xl:text-4xl font-black tracking-wide ml-2">Tech</span>
               </span>
             </motion.h1>
 

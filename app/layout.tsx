@@ -8,9 +8,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "tech InkSisanda | Graphic Design & Branding Specialists",
+  title: "InkSisanda Tech | Graphic Design & Branding Specialists",
   description:
-    "tech InkSisanda offers professional graphic design, custom branded t-shirts, fabrics, branding machines, and skills classes in graphic design and t-shirt branding.",
+    "InkSisanda Tech offers professional graphic design, custom branded t-shirts, fabrics, branding machines, and skills classes in graphic design and t-shirt branding.",
   keywords:
     "graphic design, branded t-shirts, branding machines, t-shirt printing, design classes, South Africa",
 };

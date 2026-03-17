@@ -67,7 +67,7 @@ export default function Services() {
             Our Services
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg">
-            From concept to finished product, tech InkSisanda provides end-to-end
+            From concept to finished product, InkSisanda Tech provides end-to-end
             graphic design and branding solutions.
           </p>
           <div className="mt-4 flex justify-center">

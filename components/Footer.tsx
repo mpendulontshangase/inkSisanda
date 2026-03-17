@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} tech InkSisanda. All rights reserved.
+            © {new Date().getFullYear()} InkSisanda Tech. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" />

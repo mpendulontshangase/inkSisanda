@@ -8,8 +8,8 @@ const WHATSAPP_NUMBER = "27817194455";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+27 81 719 4455" },
-  { icon: Mail, label: "Email", value: "info@techinksisanda.co.za" },
+  { icon: Phone, label: "Phone", value: "067 829 7792" },
+  { icon: Mail, label: "Email", value: "InkSisandatech25@gmail.com" },
   { icon: MapPin, label: "Location", value: "South Africa" },
   { icon: Clock, label: "Hours", value: "Mon–Sat: 8am – 6pm" },
 ];
